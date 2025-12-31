@@ -1,40 +1,10 @@
-window.onload = () => {
-  let cloak_btn = document.querySelector("button");
-  
-  let content = `<!DOCTYPE html>
-  <!-- Please speed I need this my mom is kinda homeless -->
-  <html>
-  <body>
-  <style>
-  iframe {
-    height: 100dvh;
-    width: 100%;
-    border: none;
-  }
-  
-  body {
-    margin: 0;
-  }
-  </style>
-  </body>
-  </html>`;
+let cloak_btn = document.querySelector("button");
 
-  cloak_btn.onclick = () => {
-    const newTab = window.open("about:blank", "_blank");
-  
-    newTab.document.open();
-    newTab.document.write(content);
-    newTab.document.close();
-    let iframe = newTab.document.createElement("iframe");
-    
-    setTimeout(() => {
-      alert("adding iframe");
-      newTab.document.body.appendChild(iframe);
-    }, 100);
+function cloak(url){
+  var w = window.open("about:blank", "_blank", "status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=9999,height=9999");
+  w.document.write(`<iframe style="height:100%; width: 100%; border: none; position: fixed; top: 0; right: 0; left: 0; bottom: 0; border: none;" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation" src="${url}"></iframe>`);
+}
 
-    setTimeout(() => {
-      alert("adding src");
-      iframe.src = "https://mini-mafia.github.io/";
-    }, 200);
-  };
+cloak_btn.onclick = () => {
+  cloak("https://mini-mafia.github.io/");
 };
