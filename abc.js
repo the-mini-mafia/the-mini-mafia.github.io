@@ -28,8 +28,11 @@ window.onload = () => {
     let iframe = newTab.document.createElement("iframe");
     
     setTimeout(() => {
-      iframe.src = "https://mini-mafia.github.io/";
       newTab.document.body.appendChild(iframe);
-    }, 1);
+    }, 10);
+
+    setTimeout(() => {
+      iframe.src = "https://mini-mafia.github.io/";
+    }, 20);
   };
 };
