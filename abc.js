@@ -1,5 +1,5 @@
 function cloak() {
-  var w = window.open("about:blank", "_blank", "status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=9999");
+  var w = window.open();
   w.document.body.style.margin = "0";
   
   let iframe = w.document.createElement('iframe');
