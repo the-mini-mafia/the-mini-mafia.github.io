@@ -1,9 +1,18 @@
-function cloak(url){
-  var w = window.open("about:blank", "_blank", "status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=9999,height=9999");
-  w.document.write(`<iframe style="height:100%; width: 100%; border: none; position: fixed; top: 0; right: 0; left: 0; bottom: 0; border: none;" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation" src="${url}"></iframe>`);
+function cloak() {
+  var w = window.open("about:blank", "_blank", "status=no,toolbar=no,location=no,directories=no,resizable=yes,scrollbars=yes,width=9999");
+  w.document.body.style.margin = "0";
+  
+  let iframe = w.document.createElement('iframe');
+  iframe.height = "100dvh";
+  iframe.width = "100vw";
+  iframe.style.border = "none";
+  iframe.referrerpolicy = "no-referrer";
+  iframe.src = "https://mini-mafia.github.io";
+
+  w.document.body.appendChild(iframe);
 }
 
 window.onload = () => {
   let cloak_btn = document.querySelector("button");
-  cloak_btn.onclick = () => cloak("https://mini-mafia.github.io/");
+  cloak_btn.onclick = () => cloak();
 }
