@@ -1,7 +1,7 @@
 Welcome to the MINI MAFIA!
 This is an organization devoted to making unblocked websites. <br>
 Why choose the Mini Mafia? <br>
-We have Poki Drive Mad, Fireboy and Watergirl games, Lows Adventures 3, Territorial.io, and a ton more awesome games!<br>
+We have Poki Drive Mad, Fireboy and Watergirl games, Lows Adventures 3, Territorial.io, Little Alchemy 2 and a ton more awesome games!<br>
 The organization is making their second actual game website (the original got blocked if you're on securly), so please support! <br>
 This will be the greatest site ever! <br>
 Thank you if you use it! <br>
