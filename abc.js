@@ -7,7 +7,7 @@ function cloak() {
   iframe.style.width = "100vw";
   iframe.style.border = "none";
   iframe.referrerpolicy = "no-referrer";
-  iframe.src = "https://mini-mafia.github.io";
+  iframe.src = window.location.href;
 
   w.document.body.appendChild(iframe);
 }
