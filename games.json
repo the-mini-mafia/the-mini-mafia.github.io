@@ -229,6 +229,10 @@
       "path": "/games/stickmanduel.html"
     },
     {
+      "name": "Stickman Hook",
+      "path": "/stickman-hook"
+    },
+    {
       "name": "Subway Surfers Barcelona",
       "path": "/games/subwaysurfers/barcelona.html"
     },
