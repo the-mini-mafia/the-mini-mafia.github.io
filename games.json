@@ -1,0 +1,312 @@
+{
+  "games": [
+    {
+      "name": "1v1.lol",
+      "path": "/games/1v1lol.html"
+    },
+    {
+      "name": "Airmash",
+      "path": "/games/airmash.html"
+    },
+    {
+      "name": "Among Us",
+      "path": "/games/amongus.html"
+    },
+    {
+      "name": "A Small World Cup",
+      "path": "/games/asmallworldcup.html"
+    },
+    {
+      "name": "Baldi's Basics",
+      "path": "/games/baldisbasics.html"
+    },
+    {
+      "name": "Baldi's Basics Remastered",
+      "path": "/games/baldisbasicsremaster.html"
+    },
+    {
+      "name": "Baldi's Basics The Ultra Decompile",
+      "path": "/games/baldisbasicsultradecompile.html"
+    },
+    {
+      "name": "Baldi's Fun New School Ultimate",
+      "path": "/games/baldisfunewschoolultimate.html"
+    },
+    {
+      "name": "Basket Random",
+      "path": "/games/basketrandom.html"
+    },
+    {
+      "name": "Bitlife",
+      "path": "/games/bitlife.html"
+    },
+    {
+      "name": "Clash of Vikings",
+      "path": "/games/clashofvikings.html"
+    },
+    {
+      "name": "Cookie Clicker",
+      "path": "/games/cookie-clicker.html"
+    },
+    {
+      "name": "Crazy Chicken 3D",
+      "path": "/games/crazy-chicken-3d.html"
+    },
+    {
+      "name": "Crossy Road",
+      "path": "/games/crossyroad.html"
+    },
+    {
+      "name": "Dadish",
+      "path": "/games/basketrandom.html"
+    },
+    {
+      "name": "Dan the Man",
+      "path": "/games/dan-the-man.html"
+    },
+    {
+      "name": "Doodle Jump",
+      "path": "/games/doodlejump.html"
+    },
+    {
+      "name": "Drift Boss",
+      "path": "/games/driftboss.html"
+    },
+    {
+      "name": "Drive Mad",
+      "path": "/games/drivemad.html"
+    },
+    {
+      "name": "Drive Mad Poki",
+      "path": "/games/drivemadpoki.html"
+    },
+    {
+      "name": "Eaglercraft 1.8.8",
+      "path": "/games/eaglercraft1-8-8.html"
+    },
+    {
+      "name": "Escape Road",
+      "path": "/games/escaperoad.html"
+    },
+    {
+      "name": "Escape Road 2",
+      "path": "/escape-road-2"
+    },
+    {
+      "name": "Fireboy and Watergirl 1: Forest Temple",
+      "path": "/gamesource/fireboywatergirl/index.html"
+    },
+    {
+      "name": "Fireboy and Watergirl 2: Light Temple",
+      "path": "/fireboy-and-watergirl-2-light-temple/"
+    },
+    {
+      "name": "FNAF",
+      "path": "/games/fnaf.html"
+    },
+    {
+      "name": "Football Bros",
+      "path": "/games/football-bros.html"
+    },
+    {
+      "name": "Fruit Ninja",
+      "path": "/games/fruit-ninja.html"
+    },
+    {
+      "name": "Geometry Dash Lite",
+      "path": "/games/gdlite.html"
+    },
+    {
+      "name": "Geometry Dash Scratch",
+      "path": "/games/gdscratch.html"
+    },
+    {
+      "name": "Icy Purple Head 3",
+      "path": "/games/icy-purple-head-3.html"
+    },
+    {
+      "name": "Idle Bee Factory",
+      "path": "/games/idle-bee-factory.html"
+    },
+    {
+      "name": "Idle Breakout",
+      "path": "/games/idlebreakout.html"
+    },
+    {
+      "name": "Idle Mining Empire",
+      "path": "/games/idle-mining-empire.html"
+    },
+    {
+      "name": "Idle Startup Tycoon",
+      "path": "/games/idle-startup-tycoon.html"
+    }
+    {
+      "name": "Little Alchemy 2",
+      "path": "/games/little-alchemy-2.html"
+    },
+    {
+      "name": "No Internet Dino",
+      "path": "/games/nointernetdino.html"
+    },
+    {
+      "name": "OG Sonic.exe",
+      "path": "/games/ogsonicexe.html"
+    },
+    {
+      "name": "OvO",
+      "path": "/games/ovo.html"
+    },
+    {
+      "name": "OvO 2",
+      "path": "/games/ovo2.html"
+    },
+    {
+      "name": "OvO Dimensions",
+      "path": "/games/ovodimensions.html"
+    },
+    {
+      "name": "Paper.io 2",
+      "path": "/games/paper-io-2.html"
+    },
+    {
+      "name": "Ragdoll Archers",
+      "path": "/games/ragdollarchersARC.html"
+    },
+    {
+      "name": "Ragdoll Hit",
+      "path": "/games/ragdollhit.html"
+    },
+    {
+      "name": "Retro Bowl",
+      "path": "/games/retrobowl.html"
+    },
+    {
+      "name": "Retro Bowl College",
+      "path": "/games/rbcollege.html"
+    },
+    {
+      "name": "Rooftop Snipers",
+      "path": "/games/rooftop-snipers.html"
+    },
+    {
+      "name": "Run 3",
+      "path": "/games/run3.html"
+    },
+    {
+      "name": "Sandboxels",
+      "path": "/games/sandboxels.html"
+    },
+    {
+      "name": "ShootZ",
+      "path": "/games/shootz.html"
+    },
+    {
+      "name": "Sky Race 3D",
+      "path": "/games/skyrace-3d.html"
+    },
+    {
+      "name": "Snake Game",
+      "path": "/games/snake-game.html"
+    },
+    {
+      "name": "Snowball.io",
+      "path": "/games/ovo.html"
+    },
+    {
+      "name": "Solar Smash",
+      "path": "/games/solarsmash.html"
+    },
+    {
+      "name": "Space Waves",
+      "path": "/games/spacewaves.html"
+    },
+    {
+      "name": "Stickman Duel",
+      "path": "/games/stickmanduel.html"
+    },
+    {
+      "name": "Subway Surfers Barcelona",
+      "path": "/games/subwaysurfers/barcelona.html"
+    },
+    {
+      "name": "Subway Surfers Beijing",
+      "path": "/games/subwaysurfers/beijing.html"
+    },
+    {
+      "name": "Subway Surfers Berlin",
+      "path": "/games/subwaysurfers/berlin.html"
+    },
+    {
+      "name": "Subway Surfers Buenos Aires",
+      "path": "/games/subwaysurfers/buenosaires.html"
+    },
+    {
+      "name": "Subway Surfers Havana",
+      "path": "/games/subwaysurfers/havana.html"
+    },
+    {
+      "name": "Subway Surfers Houston",
+      "path": "/games/subwaysurfers/houston.html"
+    },
+    {
+      "name": "Subway Surfers Iceland",
+      "path": "/games/subwaysurfers/iceland.html"
+    },
+    {
+      "name": "Subway Surfers London",
+      "path": "/games/subwaysurfers/london.html"
+    },
+    {
+      "name": "Subway Surfers Mexico",
+      "path": "/games/subwaysurfers/mexico.html"
+    },
+    {
+      "name": "Subway Surfers Miami",
+      "path": "/games/subwaysurfers/miami.html"
+    },
+    {
+      "name": "Subway Surfers Monaco",
+      "path": "/games/subwaysurfers/monaco.html"
+    },
+    {
+      "name": "Subway Surfers New Orleans",
+      "path": "/games/subwaysurfers/neworleans.html"
+    },
+    {
+      "name": "Subway Surfers San Francisco",
+      "path": "/games/subwaysurfers/sanfrancisco.html"
+    },
+    {
+      "name": "Subway Surfers St Petersburg",
+      "path": "/games/subwaysurfers/stpetersburg.html"
+    },
+    {
+      "name": "Subway Surfers Winter Holiday",
+      "path": "/games/subwaysurfers/winterholiday.html"
+    },
+    {
+      "name": "Subway Surfers Zurich",
+      "path": "/games/subwaysurfers/zurich.html"
+    },
+    {
+      "name": "Territorial.io",
+      "path": "/games/territorial-io.html"
+    },
+    {
+      "name": "They Are Coming",
+      "path": "/games/they-are-coming.html"
+    },
+    {
+      "name": "Tomb of the Mask",
+      "path": "/games/tombofthemask.html"
+    },
+    {
+      "name": "Table Tennis World Tour",
+      "path": "/games/ttworldtour.html"
+    },
+    {
+      "name": "Yohoho.io",
+      "path": "/games/yohoho-io.html"
+    }
+  ]
+}
