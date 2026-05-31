@@ -71,7 +71,7 @@
           let games = await getGames();
           console.log(games);
           const gameDiv = document.getElementById("games");
-          for (const [game, path] of Object.entries(games)) {
+          for (const {game, path} of games.games) {
             let hyperlink = document.createElement("a");
             hyperlink.href = path;
             hyperlink.innerText = game;
