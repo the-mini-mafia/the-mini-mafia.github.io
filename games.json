@@ -9,6 +9,10 @@
       "path": "/games/airmash.html"
     },
     {
+      "name": "Amazing Strange Rope Police",
+      "path": "/amazing-strange-rope-police"
+    },
+    {
       "name": "Among Us",
       "path": "/games/amongus.html"
     },
@@ -39,6 +43,10 @@
     {
       "name": "Bitlife",
       "path": "/games/bitlife.html"
+    },
+    {
+      "name": "Block Blast",
+      "path": "/blockblast"
     },
     {
       "name": "Clash of Vikings",
@@ -202,7 +210,7 @@
     },
     {
       "name": "ShootZ",
-      "path": "/games/shootz.html"
+      "path": "/shootz"
     },
     {
       "name": "Sky Race 3D",
