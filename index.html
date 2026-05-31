@@ -63,11 +63,13 @@
         async function getGames() {
           let response = await fetch("/games.json");
           let json = await response.json();
+          console.log(json)
           return json;
         }
 
         async function addLinks() {
           let games = await getGames();
+          console.log(games);
           const gameDiv = document.getElementById("games");
           for (const [game, path] of Object.entries(games)) {
             let hyperlink = document.createElement("a");
