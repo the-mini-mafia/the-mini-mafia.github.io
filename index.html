@@ -71,10 +71,10 @@
           let games = await getGames();
           console.log(games);
           const gameDiv = document.getElementById("games");
-          for (const {game, path} of games.games) {
+          for (const {name, path} of games.games) {
             let hyperlink = document.createElement("a");
             hyperlink.href = path;
-            hyperlink.innerText = game;
+            hyperlink.innerText = name + "\n";
             gameDiv.appendChild(hyperlink);
             console.log(`Added game ${game} path ${path}`);
           }
