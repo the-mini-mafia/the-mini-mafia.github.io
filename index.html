@@ -19,7 +19,10 @@
       <a href="/credits">Credits</a>
       <h1>Game Links</h1>
       <h3>HTML5 Games</h3>
-      <a href="/games/1v1lol">1v1.lol</a> <br>
+      <div id="games">
+        
+      </div>
+      <!--a href="/games/1v1lol">1v1.lol</a> <br>
       <a href="/games/amongus">Among Us (kevin.games version)</a> <br>
       <a href="/games/asmallworldcup">A Small World Cup</a> <br>
       <a href="/games/baldisbasics">Baldi's Basics</a> <br>
@@ -50,12 +53,33 @@
       <p>qwertycasacamsl if you write Emulated games again I will diddle you</p>
       <a href="/games/emulator/ugs/snes/donkey-kong-country.html">Donkey Kong Country</a> <br>
       <a href="/games/ugs/snes/mega-manx2.html">Mega Man X2</a> <br>
-      <a href="/games/emulator/ugs/snes/mega-man-x.html"> Mega Man X</a> <br>
+      <a href="/games/emulator/ugs/snes/mega-man-x.html"> Mega Man X</a> <br -->
       <h3>Proxies</h3>
       <a href="/heliosproxy.html"> Helios Proxy</a> <br>
       <a href="/phantom-proxy.html"> Shadow Proxy</a> <br>
         
       <h6>Where do these game websites be getting all these games?<br> Frogie thinks this is a sigma alpha website</h6>
+      <script>
+        async function getGames() {
+          let response = await fetch("/games.json");
+          let json = await response.json();
+          return json;
+        }
+
+        async function addLinks() {
+          let games = await getGames();
+          const gameDiv = document.getElementById("games");
+          for (const [game, path] of Object.entries(games)) {
+            let hyperlink = document.createElement("a");
+            hyperlink.href = path;
+            hyperlink.innerText = game;
+            gameDiv.appendChild(hyperlink);
+            console.log(`Added game ${game} path ${path}`);
+          }
+        }
+
+        addLinks();
+      </script>
     </div>
   </body>
 </html>
